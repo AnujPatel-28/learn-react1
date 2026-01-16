@@ -1,0 +1,13 @@
+.header{
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
