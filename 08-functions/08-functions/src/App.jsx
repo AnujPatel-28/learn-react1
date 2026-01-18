@@ -1,6 +1,6 @@
 import React from 'react'
 
-const App = () => {
+/*const App = () => {
   function btnClicked() {
     console.log('Button clicked!')
   }
@@ -13,12 +13,15 @@ function inputChanging(val) {
   } else {
     console.log('scrolling up');
   }
-  }
+  }*/
+ function btnClick(){
+  console.log('button clicked');
+}
 
 
   return (
     <div>
-      <button onClick={btnClicked}>Change user</button>
+     {/*<button onClick={btnClicked}>Change user</button>
       <button onClick={() => console.log('Explore button clicked!')}>explore this</button>
       <input onChange={function(elem){
          inputChanging(elem.target.value)
@@ -37,10 +40,14 @@ function inputChanging(val) {
       <div className='Page1'></div>
       <div className='Page2'></div>
       <div className='Page3'></div>
-      </div> 
+      </div> */}
+
+      <button onClick={btnClick}>click me</button>
+
     
     </div>
+    
   )
-}
+
 
 export default App
