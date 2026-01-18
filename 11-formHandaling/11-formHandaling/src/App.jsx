@@ -16,6 +16,12 @@ const App = () => {
     */
   return (
     <div>
+       <form onSubmit={(e) => {
+        submitHandler(e)
+      }}>
+        <input type="text" placeholder='Enter your name' />
+        <button>Submit</button>
+      </form>
       
     </div>
   )
