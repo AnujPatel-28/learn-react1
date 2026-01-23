@@ -30,7 +30,7 @@ const App = () => {
   }
 
   return (
-    <div className='bg-black overflow-auto h-screen p-4 text-white'>
+    <div className='bg-black overflow-auto h-screen p-4 text-white relative'>
       <div className='flex h-[82%] flex-wrap gap-4 p-2'>
         {printUserData}
       </div>
